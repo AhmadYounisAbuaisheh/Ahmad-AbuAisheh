@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Playpen+Sans:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0; 
+    font-family: 'Playpen Sans', cursive; 
+    font-family:"Agbalumo","playpen Sans"; 
+     }
+     .body-head{
+        background-image: url(img12.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100%;
+        width:100%;
+       
+     }
+   header{
+    background-color: white(47, 47, 170, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    min-height: 75px;
+    flex-wrap: wrap;
+   }
+    
+.t-h{
+  font-size: 60px;
+  font-weight: bold;
+  color: #f9f9f9;;
+  cursor: pointer;
+}
+.t-m{
+    color:lightblue
+ 
+  
+   
+
+  }
+    nav ul li{
+        display: inline-block;
+        padding: 0 10px;
+      }
+      li a{
+        text-decoration: none;
+        color: #f9f9f9;;
+        font-size: 25px;
+        transition: 1s;
+      }
+      li a:hover{
+        color: lightblue;
+      }
+    .sub-btn {
+    margin-top: 5px;
+    padding-right: 30px;
+}
+    .sub-btn button {
+      font-size: 25px;
+    background-color:rgba(173, 216, 230, 0.721);
+    text-align: center;
+    font-weight: bold;
+    color: #f9f9f9;
+    border: none;
+    padding: 5px 18px;
+    padding-bottom: 8px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition:1s ;
+}
+.sub-btn button:hover {
+   transform: scale(1.1);
+}
+
+#banner{
+    height: 100vh;
+    position: relative;
+  }
+  .banner-container{
+    position:absolute;
+    background-color: rgba(75, 26, 181, 0);
+    top: 100px;
+    left: 150px;
+    height: 100px;
+    line-height: 30px;
+    padding: 40px;
+    color: #f9f9f9ff;
+  }
+   .hello{
+    color:lightgray;
+    letter-spacing: 1px;
+    font-size: 25px;
+   }
+   .name{
+    font-family:"Agbalumo","playpen Sans"; 
+    margin-left: 5px;
+    margin-top:  30px ;
+    padding-bottom: 30px;
+    font-size: 90px;
+    color: #f9f9f9;
+   }
+   .last-name{
+    color: lightblue;
+   }
+   .job{
+    color: lightblue;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-bottom: 20px;
+   }
+   .email{
+    position: relative;
+    display: inline-block;
+    padding-top: 10px;
+   }
+   .email-input{
+    font-size: 20px;
+    padding: 10px;
+    width: 500px;
+    border: 1px solid #f9f9f9;
+    border-radius: 50px;
+   }
+   .email-btn{
+    position: absolute;
+    font-size: 25px;
+    bottom: 3px;
+    right: 3px;
+    padding: 4px 15px;
+    background-color: rgb(173, 216, 230);
+    color: #f9f9f9;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 1s;
+   }
+   .email-btn:hover{
+    transform: scale(1.1);
+   }
+   /* card */
+
+   .card-container{
+    background-color: black;
+    display: inline-flex;
+    justify-content: center;
+     margin-top: 0;
+     padding: 15px;
+   }
+   .card{
+     background-color: black;
+     flex-basis: 300px;
+     display: inline-flex;
+     flex-shrink: 0;
+     height: 350px;
+     width: 100%;
+   }
+
+
+   img{
+    width: 100%;
+    height: 100%;
+  }
+  .About-card{
+    background-color: black;   
+    height: 350px;
+    width: 100%;
+    border: none;
+    margin: 0;
+  }
+   #About-me{
+    font-size: 30px;
+    color: #f9f9f9;
+     margin-bottom: 10px;
+     margin-left: 15px;
+   }
+   .About-job{
+    margin-left: 18px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #f9f9f9;
+   }
+   .A-last{
+    color: lightblue;
+   }
+   .des{
+    font-size: 13px;
+    color: #f9f9f9;
+   margin-left: 10px;
+   
+   }
+   .des button{
+     border: 2px solid;
+     border-color: lightblue;
+     background-color: rgba(173, 216, 230, 0.792);
+     color: #f9f9f9;
+     border-radius: 30px;
+     margin-top: 20px;
+     padding: 5px 15px;
+     cursor: pointer;
+     transition: 1s;
+   }
+   .des button:hover{
+    transform: scale(1.1);
+    background-color: black;
+    border-color: lightblue;
+   }
+   .all{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    padding: 194px;
+    width: 1130px;
+    align-items: center;
+   }
+#Services{
+  color: #f9f9f9;
+font-weight: bold;
+text-align: center;
+font-size: 50px;
+align-items: center;
+width: 1130px;
+margin: 30px auto;
+}
+.box{
+  display:flex;
+  align-items: center;
+  color: #f9f9f9;
+  
+  justify-content: center;
+
+}
+.serv-card{
+gap: 20px;
+background-color:rgba(211, 211, 211, 0.23);
+text-align: center;
+padding: 20px;
+margin: 10px;
+width: 220px;
+}
+.serv-card i{
+  color: lightblue;
+  font-size: 30px;
+  margin-bottom: 12px;
+  align-items: center;
+}
+h5{
+  font-size: 25px;
+}
+.serv{
+  font-size: 13px;
+  color: lightgray;
+  text-align: center;
+}
+.read-btn{
+  background-color: rgba(173, 216, 230, 0.744);
+  color: #f9f9f9;
+  padding:  5px 10px;
+  border: 2px solid;
+  border-radius: 20px;
+  margin-top: 10px;
+border-color: lightblue;
+cursor: pointer;
+transition: 1s;
+}
+.read-btn:hover{
+  transform: scale(1.1);
+  border-color: #f9f9f9;
+}
+.all-hire{
+  background-color: black;
+}
+.let-box{
+  display: inline-block;
+text-align: center;
+align-items: center;
+height: 350px;
+width: 100%;
+}
+.let{
+  background-color: rgba(211, 211, 211, 0.23);
+  display:block;
+  font-size: 30px;
+  color: #f9f9f9;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.btn-h{
+  background-color:rgba(211, 211, 211, 0.23) ;
+  padding-bottom: 60px;
+}
+.hire-btn{
+background-color: lightblue;
+color: #f9f9f9;
+font-size: 20px;
+text-align: center;
+align-items: center;
+padding: 5px 20px;
+border-radius: 20px;
+border: 5px solid;
+border-color: lightblue;
+cursor: pointer;
+transition: 1s
+}
+.hire-btn:hover{
+  transform: scale(1.1);
+  border-color: #f9f9f9;
+}
+#all-ft{
+  position: relative;
+  background-color: black;
+  display: flex;
+  width: 100%;
+  height: 400px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.box-ft{
+  width: 360px;
+
+}
+.name-ft{
+  color: #f9f9f9;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.fot-des{
+  color: lightgrey;
+  font-size: 13px;
+}
+.social{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.social a{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+  border-radius: 50%;
+  margin: 22px 10px;
+  color: #f9f9f9;
+  text-decoration: none;
+  font-size: 20px;
+}
+.social a:hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
+.copy-right{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  color: lightblue;
+  bottom: 35px;
+  left: 675px;
+  font-size: 13px;
+}
